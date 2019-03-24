@@ -1,0 +1,112 @@
+/*General styling*/
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  html {
+    min-height: 100%;
+    background-image: url(https://hdqwalls.com/download/girl-fitness-model-pic-2880x1800.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /*Form styling*/
+  legend {
+    text-align: center;
+    margin: 50px 0 35px 0;
+    text-shadow: 1px 1px #606164;
+  }
+  
+  form {
+    width: 50%;
+    margin: 0 auto;
+    min-width: 420px;
+    color: white;
+    font-size: 36px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  fieldset {
+    border: 0;
+  }
+  
+  input {
+    font-size: 20px;
+    margin: 10px 5px;
+  }
+  
+  label {
+    cursor: pointer;
+    margin: 5px auto;
+    background-color: rgba(0, 0, 0, .55);
+    padding: 10px;
+    width: calc(100% - 50px);
+    display: inline-block;
+    font-size: 25px;
+  }
+  
+  label:hover {
+    background-color: rgba(30, 165, 243, 0.822);
+  }
+  
+  .button {
+    display: block;
+    font-size: 28px;
+    margin: 15px auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: solid 2px #363946;
+    background-color:  #ebca52ec;
+    color: #363946;
+  }
+  
+  .button:hover {
+    background-color: #363946;
+    color: #ebca52ec;
+  }
+  
+  /*Text styling*/
+  div h1, p, h2 {
+    text-align: center;
+    width: fit-content;
+    margin: 15px auto;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  div h1, .incorrect-feedback h2, .correct-feedback h2, h2 {
+    font-size: 58px;
+    color: #ebca52ec;
+  }
+  
+  div p {
+    font-size: 33px;
+    text-shadow: 3px 3px #363946;
+  }
+  
+  .score, .question {
+    color:  #ebca52ec;
+  }
+  
+  /*Responsiveness*/
+  @media only screen and (min-width: 550px) {
+    .score, .question {
+      display: inline-block;
+      padding: 0 50px;
+    }
+  
+    .question {
+      margin-left: calc(100% - 500px);
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
